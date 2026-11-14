@@ -1,0 +1,11 @@
+{
+  "opis": "Nagranie żywe: `hc ls --json` z prawdziwego rdzenia 2026-11-05, hc 0.1.18. `agent` to nazwa APLIKACJI (claude-code, zsh, grok-build, omp, hc), nie basename argv[0]. Ścieżki i nazwy osobiste usunięte, adresy zanonimizowane.",
+  "hidden_finished": 0,
+  "terminals": [
+    { "address": "tc1", "agent": "claude-code", "cwd": "/home", "name": null, "state": "live", "turn": 3 },
+    { "address": "tc2", "agent": "claude-code", "cwd": "/inne", "name": null, "state": "live", "turn": 0 },
+    { "address": "ts1", "agent": "zsh", "cwd": "/home", "name": null, "state": "live", "turn": 0 },
+    { "address": "tg1", "agent": "grok-build", "cwd": "/home", "name": null, "state": "live", "turn": 0 },
+    { "address": "to1", "agent": "omp", "cwd": "/repo", "name": null, "state": "live", "turn": 1 }
+  ]
+}

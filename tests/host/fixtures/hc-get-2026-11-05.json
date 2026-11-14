@@ -1,0 +1,27 @@
+{
+  "opis": "Nagrania żywe z prawdziwego rdzenia 2026-11-05, hc 0.1.18, przycięte do pól parsera. Usunięte osobiste: argv, title, screen, pełne ścieżki; adresy zanonimizowane. status.app to nazwa aplikacji raportowana przez program (OSC 7501).",
+  "claude-done": {
+    "address": "tc1",
+    "state": "live",
+    "cwd": "/home",
+    "foreground": { "cwd": "/repo" },
+    "name": null,
+    "status": { "state": "done", "app": "claude-code" }
+  },
+  "claude-idle": {
+    "address": "tc2",
+    "state": "live",
+    "cwd": "/inne",
+    "foreground": { "cwd": "/inne" },
+    "name": null,
+    "status": { "state": "idle", "app": "claude-code" }
+  },
+  "powloka": {
+    "address": "ts1",
+    "state": "live",
+    "cwd": "/home",
+    "foreground": { "cwd": "/repo" },
+    "name": null,
+    "status": null
+  }
+}

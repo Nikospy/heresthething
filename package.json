@@ -1,0 +1,52 @@
+{
+  "name": "heresthething",
+  "version": "0.1.0",
+  "description": "Connects the Here's the Thing Chrome extension to Claude Code and Codex on macOS: native messaging host, MCP server and installer.",
+  "keywords": [
+    "mcp",
+    "claude-code",
+    "codex",
+    "chrome-extension",
+    "native-messaging"
+  ],
+  "homepage": "https://herestt.mewitzlab.com",
+  "bugs": {
+    "url": "https://github.com/Nikospy/heresthething/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikospy/heresthething.git"
+  },
+  "license": "PolyForm-Shield-1.0.0",
+  "author": "Mikołaj Pietkiewicz",
+  "type": "module",
+  "bin": {
+    "heresthething": "dist/host/instalator.mjs"
+  },
+  "files": [
+    "dist/host/host.mjs",
+    "dist/host/instalator.mjs",
+    "dist/mcp/mcp.mjs",
+    "host/sprawdz-instalacje.mjs",
+    "src/wspolne/id-wtyczki.txt"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "build": "node scripts/build-lokalny.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
