@@ -16,6 +16,10 @@ export type TypUwagi = (typeof TYPY_UWAG)[number];
 export const LIMITY_TEKSTU = {
   tekstWlasciciela: 4000,
   tekstElementu: 80,
+  /** Zaznaczony tekst strony (FR-027): zdanie albo krótki akapit. Dłuższy jest cięty jawnie (`obciety`). */
+  cytat: 500,
+  /** Tekst tuż przed i tuż po zaznaczeniu, w obrębie elementu. */
+  otoczenieCytatu: 32,
   /** Tekst ludzkiej nazwy i cała nazwa z rolą (FR-024). */
   tekstNazwy: 40,
   nazwaElementu: 64,
